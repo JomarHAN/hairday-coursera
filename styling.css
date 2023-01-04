@@ -35,11 +35,20 @@ nav ul li{
     display: inline-block;
     padding: 5px 20px;
     cursor: pointer;
-    transition: 0.8s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
+
+nav ul li a{
+    text-decoration: none;
+    color: #f1feff;
+}
+
 nav ul li:hover{
     background-color: #f2ebe2;
     border-radius: 20px;
+    color: #7e7777;
+}
+nav ul li:hover a{
     color: #7e7777;
 }
 
